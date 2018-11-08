@@ -20,7 +20,10 @@
   </div>
 </ion-scroll>
 
-<div
-  class="fitted-image-title"
-  *ngIf="photo.title"
+<div class="fitted-image-title">
+<div *ngIf="photo.title"
 >{{ photo.title }}</div>
+
+<div *ngIf="photo.description"
+>{{ photo.description }}</div>
+</div>
